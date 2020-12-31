@@ -4,7 +4,7 @@ var stoppedDuration = 0; // how long was the timer stopped?
 var startInterval = null; // this is needed to stop the startInterva() method
 var flag = false; // to control the start/stop of the timer
 
-const timerContainer = document.getElementsByClassName("timer-container")[0];
+const timerContainer = document.getElementsByClassName("Text-display")[0];
 
 timerContainer.addEventListener("click", function()
 {
